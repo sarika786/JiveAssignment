@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="testcases.JiveAssTestNG">
+        <methods>
+          <include name="ValidatePhoneInputField"/>
+          <include name="TestErrors"/>
+          <include name="ValidateEmailInputField"/>
+          <include name="AdditionalErrorsCheck"/>
+          <include name="ValidateNameInputField"/>
+        </methods>
+      </class> <!-- testcases.JiveAssTestNG -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
